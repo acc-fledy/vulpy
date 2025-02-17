@@ -49,6 +49,17 @@ def do_create():
             flash("Please, complete username and password")
             return render_template('user.create.html')
 
+        print("test")
+
+
+
+
+
+
+
+        #this is a test
+
+
         libuser.create(username, password)
         flash("User created. Please login.")
         return redirect('/user/login')
